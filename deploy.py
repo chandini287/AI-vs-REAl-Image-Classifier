@@ -35,10 +35,10 @@ def main():
             background-size: cover;
             background-position: center;
         }
-        .css-1aumxhk {  /* Streamlit sidebar background */
-            background: white;
+        .css-1aumxhk {  /* Sidebar background */
+            background-color: white !important;
         }
-        .css-1cpxqw2, .css-17eq0hr, .css-1v0mbdj { /* Sidebar text and radio options */
+        .css-1n543e5, .css-1n543e5 * {  /* Sidebar text and radio options */
             color: black !important;
         }
         .css-1d391kg { /* Applies to the main area */
