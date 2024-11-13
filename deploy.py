@@ -38,6 +38,12 @@ def main():
         .css-1aumxhk {  /* Streamlit sidebar background */
             background: white;
         }
+        .css-17eq0hr { /* Sidebar label, such as 'Select a page' */
+            color: black !important;
+        }
+        .css-1cpxqw2 a { /* Sidebar radio options: 'Home' and 'Predictor' */
+            color: black !important;
+        }
         .css-1d391kg { /* Applies to the main area */
             background: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay for readability */
             border-radius: 10px;
