@@ -26,35 +26,44 @@ def predict(image):
 
 # Streamlit app
 def main():
-    # CSS styling to set background image, improve text readability, and enforce black text on sidebar
+    # CSS styling to apply a light black background color for the sidebar
     st.markdown(
         """
         <style>
+        /* Main app background */
         .stApp {
             background-image: url("https://wallpaperaccess.com/full/1846972.jpg");
             background-size: cover;
             background-position: center;
         }
-        .css-1aumxhk {  /* Sidebar background */
-            background-color: white !important;
+
+        /* Sidebar styling with semi-transparent black background */
+        .css-1aumxhk {  /* Streamlit sidebar background */
+            background-color: rgba(0, 0, 0, 0.6); /* Light black with 60% opacity */
         }
-        .css-1n543e5, .css-1n543e5 * {  /* Sidebar text and radio options */
-            color: black !important;
+
+        /* Sidebar text color */
+        .css-1cpxqw2, .css-17eq0hr, .css-1v0mbdj, .css-1n543e5 * {
+            color: white !important;
         }
+
+        /* Main content styling */
         .css-1d391kg { /* Applies to the main area */
             background: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay for readability */
             border-radius: 10px;
             padding: 2rem;
-            margin: auto; /* Center the main content */
-            max-width: 700px; /* Control the width of the main content */
-            color: black; /* Set main text color to black */
-            text-align: center; /* Center-align text */
+            margin: auto;
+            max-width: 700px;
+            color: black;
+            text-align: center;
         }
+        
+        /* Headings and paragraph text */
         h1, h2, h3 {
-            color: black; /* Keep headers in black */
+            color: black;
         }
         p {
-            color: rgba(255, 255, 255, 0.9); /* Set paragraph text to light gray/white */
+            color: rgba(255, 255, 255, 0.9);
         }
         </style>
         """,
