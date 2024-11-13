@@ -26,7 +26,7 @@ def predict(image):
 
 # Streamlit app
 def main():
-    # CSS styling to set background image and improve text readability
+    # CSS styling to set background image, improve text readability, and enforce black text on sidebar
     st.markdown(
         """
         <style>
@@ -38,10 +38,7 @@ def main():
         .css-1aumxhk {  /* Streamlit sidebar background */
             background: white;
         }
-        .css-17eq0hr { /* Sidebar label, such as 'Select a page' */
-            color: black !important;
-        }
-        .css-1cpxqw2 a { /* Sidebar radio options: 'Home' and 'Predictor' */
+        .css-1cpxqw2, .css-17eq0hr { /* Sidebar text and radio options */
             color: black !important;
         }
         .css-1d391kg { /* Applies to the main area */
