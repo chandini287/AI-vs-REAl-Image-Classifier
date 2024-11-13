@@ -42,6 +42,10 @@ def main():
             background: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay for readability */
             border-radius: 10px;
             padding: 2rem;
+            color: black; /* Set text color to black */
+        }
+        h1, h2, h3, p {
+            color: black; /* Set all headers and paragraph text to black */
         }
         </style>
         """,
