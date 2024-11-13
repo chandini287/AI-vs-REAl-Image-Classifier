@@ -8,7 +8,7 @@ model = tf.keras.models.load_model('Model.h5')
 
 # Function to preprocess the image
 def preprocess_image(image):
-    image = image.resize((32,32))  
+    image = image.resize((32, 32))  
     img_array = np.array(image)
     img_array = img_array / 255
     return img_array
@@ -38,7 +38,7 @@ def main():
         .css-1aumxhk {  /* Streamlit sidebar background */
             background: white;
         }
-        .css-1cpxqw2, .css-17eq0hr { /* Sidebar text and radio options */
+        .css-1cpxqw2, .css-17eq0hr, .css-1v0mbdj { /* Sidebar text and radio options */
             color: black !important;
         }
         .css-1d391kg { /* Applies to the main area */
