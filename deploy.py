@@ -26,7 +26,7 @@ def predict(image):
 
 # Streamlit app
 def main():
-    # CSS styling to set background image only on main content
+    # CSS styling to set background image and center content
     st.markdown(
         """
         <style>
@@ -42,7 +42,10 @@ def main():
             background: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay for readability */
             border-radius: 10px;
             padding: 2rem;
+            margin: auto; /* Center the main content */
+            max-width: 700px; /* Control the width of the main content */
             color: black; /* Set text color to black */
+            text-align: center; /* Center-align text */
         }
         h1, h2, h3, p {
             color: black; /* Set all headers and paragraph text to black */
