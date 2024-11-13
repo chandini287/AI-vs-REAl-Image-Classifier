@@ -38,7 +38,7 @@ def main():
         }
 
         /* Sidebar styling with semi-transparent black background */
-        .css-1aumxhk {  /* Streamlit sidebar background */
+        .css-1d391kg, .css-1d391kg > div {  
             background-color: rgba(0, 0, 0, 0.6); /* Light black with 60% opacity */
         }
 
