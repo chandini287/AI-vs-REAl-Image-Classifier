@@ -30,3 +30,4 @@ Check out the live version here - "https://chandini-ai-vs-real-image-classifier-
 ## Done By:
 
 Chandini Adapa
+Pradeep Pasagodugula
